@@ -1,0 +1,19 @@
+{
+  "name": "youtube-ad-backend",
+  "version": "1.0.0",
+  "description": "Basit backend for YouTube ad kontratı",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "soroban-client": "^1.0.1",
+    "stellar-sdk": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
