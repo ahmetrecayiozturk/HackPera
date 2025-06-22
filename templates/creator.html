@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Reklamveren Bilgileri</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#0f172a] text-gray-200 min-h-screen py-12 px-4">
+  <div class="max-w-xl mx-auto space-y-6">
+    <h1 class="text-3xl font-bold mb-6 text-white text-center">Sayıyla Giriş</h1>
+    <form class="space-y-4">
+      <input type="text" placeholder="Cüzdan Adresi" readonly class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-xl text-gray-400 cursor-not-allowed">
+      
+      <!-- Düzenlenebilir alan -->
+      <input type="text" placeholder="Düzenlenemeyen" class="w-full px-4 py-3 bg-gray-800 border border-gray-600 rounded-xl text-white">
+
+      <input type="url" placeholder="Video URL" readonly class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-xl text-gray-400 cursor-not-allowed">
+      <input type="number" placeholder="Görüntüleme Başına Ödeme" readonly class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-xl text-gray-400 cursor-not-allowed">
+      <input type="number" placeholder="Maksimum Ödeme" readonly class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-xl text-gray-400 cursor-not-allowed">
+      <input type="date" placeholder="Bitiş Tarihi" readonly class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-xl text-gray-400 cursor-not-allowed">
+
+      <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-xl font-semibold">Referans Numarası Oluştur</button>
+    </form>
+  </div>
+</body>
+</html>
